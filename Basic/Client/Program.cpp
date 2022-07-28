@@ -59,53 +59,53 @@ void CommunicateWithServer(OpcClient %client)
     {
     case 1:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor1/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor1/Position"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor1/Mode"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor1/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor1/Temperature"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=2;s=Motor1/Name"));
+        Console::WriteLine(L"Position: {0}", client.ReadNode("ns=2;s=Motor1/Position"));
+        Console::WriteLine(L"Mode: {0}", client.ReadNode("ns=2;s=Motor1/Mode"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=2;s=Motor1/Status"));
+        Console::WriteLine(L"Temperature: {0}", client.ReadNode("ns=2;s=Motor1/Temperature"));
         break;
 
     }
     case 2:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor2/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor2/Position"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor2/Mode"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor2/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=2;s=Motor2/Temperature"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=2;s=Motor2/Name"));
+        Console::WriteLine(L"Position: {0}", client.ReadNode("ns=2;s=Motor2/Position"));
+        Console::WriteLine(L"Mode: {0}", client.ReadNode("ns=2;s=Motor2/Mode"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=2;s=Motor2/Status"));
+        Console::WriteLine(L"Temperature: {0}", client.ReadNode("ns=2;s=Motor2/Temperature"));
         break;
     }
     case 3:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor1/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor1/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor1/MeasValue"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=3;s=Sensor1/Name"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=3;s=Sensor1/Status"));
+        Console::WriteLine(L"Value: {0}", client.ReadNode("ns=3;s=Sensor1/MeasValue"));
         break;
     }
     case 4:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor2/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor2/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=3;s=Sensor2/MeasValue"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=3;s=Sensor2/Name"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=3;s=Sensor2/Status"));
+        Console::WriteLine(L"Value: {0}", client.ReadNode("ns=3;s=Sensor2/MeasValue"));
         break;
     }
     case 5:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot1/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot1/Position"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot1/Mode"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot1/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot1/Temperature"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=4;s=Robot1/Name"));
+        Console::WriteLine(L"Position: {0}", client.ReadNode("ns=4;s=Robot1/Position"));
+        Console::WriteLine(L"Mode: {0}", client.ReadNode("ns=4;s=Robot1/Mode"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=4;s=Robot1/Status"));
+        Console::WriteLine(L"Temperature: {0}", client.ReadNode("ns=4;s=Robot1/Temperature"));
         break;
     }
     case 6:
     {
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot2/Name"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot2/Position"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot2/Mode"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot2/Status"));
-        Console::WriteLine(L"ReadNode: {0}", client.ReadNode("ns=4;s=Robot2/Temperature"));
+        Console::WriteLine(L"Name: {0}", client.ReadNode("ns=4;s=Robot2/Name"));
+        Console::WriteLine(L"Position: {0}", client.ReadNode("ns=4;s=Robot2/Position"));
+        Console::WriteLine(L"Mode: {0}", client.ReadNode("ns=4;s=Robot2/Mode"));
+        Console::WriteLine(L"Status: {0}", client.ReadNode("ns=4;s=Robot2/Status"));
+        Console::WriteLine(L"Temperature: {0}", client.ReadNode("ns=4;s=Robot2/Temperature"));
         break;
     }
     default:
